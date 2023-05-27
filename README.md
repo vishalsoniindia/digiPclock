@@ -7,4 +7,4 @@ digiPclock is a digital pocket clock based on ESP32C3 and GC9A01 with TFT_espi
 
 [![circuit 2 0 1](https://github.com/vishalsoniindia/digiPclock/assets/59290454/4fc3fd6b-6f85-461f-b69a-9d8de1607d3e)](https://www.youtube.com/watch?v=AAeNH2h8M6g&t=192s)
 
-[![alt text](https://github.com/vishalsoniindia/digiPclock/assets/59290454/4fc3fd6b-6f85-461f-b69a-9d8de1607d3e)](https://www.youtube.com/watch?v=AAeNH2h8M6g&t=192s)
+[![alt text](https://img.youtube.com/watch?v=AAeNH2h8M6g&t=192s)](https://youtube.com/watch?v=AAeNH2h8M6g&t=192s)
