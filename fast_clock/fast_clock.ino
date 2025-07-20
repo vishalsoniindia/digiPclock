@@ -1,15 +1,24 @@
- #include "clock_background.h"
+/*
+ * ESP32 board package : 2.0.10 
+ */
+
+#include "Arduino.h"
+#include "clock_background.h"
 #include "hour_niddle.h"
 #include "minute_niddle.h"
 #include "second_niddle.h"
+#include "nvs_flash.h"
+#include <BluetoothSerial.h>
+#include "driver/adc.h"
+#include <SPI.h>
 
-#include <WiFiManager.h>
+#include <WiFiManager.h> //{2.0.17} [https://github.com/tzapu/WiFiManager]
 WiFiManager wm;
 
-#include <ESP32Time.h>
+#include <ESP32Time.h>  //{2.0.6}  [https://github.com/fbiego/ESP32Time]
 ESP32Time rtc;
 
-#include <TFT_eSPI.h>
+#include <TFT_eSPI.h>   //{2.5.43}  [https://github.com/Bodmer/TFT_eSPI]
 TFT_eSPI tft = TFT_eSPI();
 
 TFT_eSprite second_needle_sprite = TFT_eSprite(&tft); // Sprite object for needle
